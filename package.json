@@ -1,6 +1,6 @@
 {
   "name": "ts-transformer-replace-paths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript custom transformer that replaces import paths with regular expressions",
   "main": "dist/index.js",
   "files": [
