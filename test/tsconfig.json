@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "outDir": "output",
+        "plugins": [
+            {
+                "transform": "../dist/index.js",
+                "replaceImportPaths": {
+                    "^foo/esm/(.+)": "foo/cjs/$1",
+                    "^bar$": "buzz"
+                }
+            }
+        ]
+    },
+    "include": [
+        "input/**/*.ts",
+    ]
+}

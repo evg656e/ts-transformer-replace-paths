@@ -1,0 +1,28 @@
+{
+  "name": "ts-transformer-replace-paths",
+  "version": "1.0.0",
+  "description": "TypeScript custom transformer that replaces import paths with regular expressions",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "ttsc -p test/tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evg656e/ts-transformer-replace-paths.git"
+  },
+  "author": "evg656e <evg656e@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/evg656e/ts-transformer-replace-paths/issues"
+  },
+  "homepage": "https://github.com/evg656e/ts-transformer-replace-paths#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.20",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.9.6"
+  }
+}
